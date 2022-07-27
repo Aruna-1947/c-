@@ -1,4 +1,4 @@
-# include <iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -23,7 +23,6 @@ int main()
             cout << num1/num2;
             break;
         default:
-            // If the operator is other than +, -, * or /, error message is shown
             cout << "Error! operator is not correct";
             break;
     }

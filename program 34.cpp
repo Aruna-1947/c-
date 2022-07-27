@@ -1,10 +1,8 @@
-/* C++ Program - Print Diamond Pattern */
-		
-#include<iostream.h>
+#include<iostream>
 #include<conio.h>
-void main()
+using namespace std;
+int main()
 {
-    clrscr();
     int n, c, k, space=1;
     cout<<"Enter number of rows (for diamond dimension) : ";
     cin>>n;

@@ -17,15 +17,15 @@ int main()
 	num1=num1-num2;
 	cout << "The values of num1 and num2 after swapping are : \n" <<num1 <<"\n" <<num2;
 	
-	cout <<"Enter the value of var1 : \n";
+	cout <<"\nEnter the value of var1 : \n";
 	cin >>var1;
-	cout <<"Enter the value of var2 : \n";
+	cout <<"\nEnter the value of var2 : \n";
 	cin>>var2;
 	
     temp=var1;
     var1=var2;
     var2=temp;
-    cout <<"The values of var1 and vafr2 are : \n" <<var1 <<"\n"<<var2;
+    cout <<"\nThe values of var1 and vafr2 are : \n" <<var1 <<"\n"<<var2<<"\n";
     return 0;
     
 }
